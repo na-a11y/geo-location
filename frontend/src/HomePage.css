@@ -1,0 +1,52 @@
+.home-page {
+  background-image: url('https://images.unsplash.com/photo-1729012492237-bb7b290d3336?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section {
+  /* Removed background color for a seamless effect */
+  padding: 40px 30px; /* Increased padding */
+  border-radius: 15px; /* Optional: if you want rounded corners */
+  max-width: 800px; /* Limit the width */
+  text-align: center;
+}
+.hero-section h1 {
+  color: aliceblue;
+  font-size: 2.5em; /* Larger heading */
+  margin-bottom: 20px;
+  font-weight: bold; /* Bold font for emphasis */
+}
+
+.hero-section p {
+  font-size: 1.2em; /* Increase readability */
+  margin-bottom: 30px;
+  color:white; /* Lighter text for the paragraph */
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px; /* Spacing between buttons */
+  justify-content: center;
+}
+
+.btn {
+  padding: 12px 25px; /* Larger button for better click area */
+  background-color: #5AB2FF; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-size: 1em; /* Ensure text is readable */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow on buttons */
+}
+
+.btn:hover {
+  background-color: #007bb5; /* Darker on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
