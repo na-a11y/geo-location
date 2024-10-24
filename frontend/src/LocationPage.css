@@ -1,40 +1,40 @@
 .location-page {
-    padding: 20px;
-  }
-  
-  .search-form {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  
-  .search-form input {
-    width: 300px;
-    padding: 10px;
-    border-radius: 5px 0 0 5px;
-    border: 1px solid #ccc;
-  }
-  
-  .search-form button {
-    padding: 10px;
-    background-color:  #000102;
-    color: white;
-    border: none;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
-  }
-  
-  .search-form button:hover {
-    background-color:  #000102;
-    transform: translateY(-2px);
-    color:antiquewhite;
-  }
-  
-  .leaflet-container {
-    width: 100%;
-    height: 80vh; /* Adjust to make the map more vertical */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
+  padding: 20px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-form input {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-form button {
+  padding: 10px;
+  background-color: #000102;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.search-form button:hover {
+  background-color: #007bb5;
+  transform: translateY(-2px);
+  color: antiquewhite;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 80vh;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
