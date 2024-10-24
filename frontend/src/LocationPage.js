@@ -24,7 +24,7 @@ function LocationPage() {
   // Fetch coordinates from API
   const fetchCoordinates = async (location) => {
     try {
-      const response = await axios.post('http://localhost:5000/api/location', { location });
+      const response = await axios.post('https://geo-backend-1tpc.onrender.com/api/location', { location });
       return response.data;  // Ensure response contains { lat, lng } correctly
     } catch (error) {
       alert(`Error finding location: ${location}`);
